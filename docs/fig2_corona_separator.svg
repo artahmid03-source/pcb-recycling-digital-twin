@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 390" width="100%" height="100%" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="920" height="390" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="30" y="35" font-size="15" font-weight="bold" fill="#0f172a">Stage 4: Roll-Type Corona-Electrostatic Tri-Zone Particle Ballistics (R_roll = 90 mm, L_gap = 50 mm)</text>
+
+  <!-- Vibratory Feeder -->
+  <text x="70" y="68" font-size="12.5" font-weight="bold" fill="#1e293b">Vibratory Feeder (Stage 3 Underflow)</text>
+  <polygon points="85,78 245,78 255,100 85,100" fill="#cbd5e1" stroke="#475569" stroke-width="2"/>
+
+  <!-- Grounded Roll -->
+  <circle cx="255" cy="195" r="78" fill="#e2e8f0" stroke="#0f172a" stroke-width="4"/>
+  <circle cx="255" cy="195" r="8" fill="#0f172a"/>
+  <text x="255" y="180" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#0f172a">Grounded Roll</text>
+  <text x="255" y="218" font-size="11.5" text-anchor="middle" fill="#334155">R_roll = 90 mm, &#969;_roll</text>
+
+  <!-- Scraper Brush -->
+  <rect x="142" y="190" width="28" height="14" fill="#475569" stroke="#1e293b"/>
+  <text x="95" y="201" font-size="11.5" text-anchor="middle" fill="#334155">Scraper Brush</text>
+
+  <!-- Corona Ionization Electrode -->
+  <circle cx="372" cy="108" r="11" fill="#f87171" stroke="#b91c1c" stroke-width="2.5"/>
+  <line x1="363" y1="115" x2="325" y2="142" stroke="#ef4444" stroke-width="2" stroke-dasharray="4,3"/>
+  <line x1="367" y1="118" x2="332" y2="155" stroke="#ef4444" stroke-width="2" stroke-dasharray="4,3"/>
+  <text x="485" y="102" font-size="12.5" font-weight="bold" fill="#b91c1c">Corona Ionization Electrode (U_kV = 18&#8211;28 kV)</text>
+
+  <!-- Static Electrostatic Electrode -->
+  <ellipse cx="412" cy="182" rx="14" ry="34" transform="rotate(-18 412 182)" fill="#fde047" stroke="#ca8a04" stroke-width="2.5"/>
+  <text x="505" y="168" font-size="12.5" font-weight="bold" fill="#a16207">Static Electrostatic Attraction Electrode</text>
+
+  <!-- Trajectories -->
+  <!-- FR-4 Insulator (Pinned) -->
+  <path d="M 185 235 L 185 330" stroke="#64748b" stroke-width="3" stroke-dasharray="6,4" fill="none"/>
+  <!-- Unliberated Middling (Drops near x=0) -->
+  <path d="M 326 165 Q 340 245 352 330" stroke="#d97706" stroke-width="3.5" fill="none"/>
+  <!-- Copper Conductor (Leaps forward) -->
+  <path d="M 322 145 Q 405 195 468 330" stroke="#0284c7" stroke-width="4" fill="none"/>
+
+  <!-- Collection Bins & Splitters -->
+  <line x1="125" y1="330" x2="545" y2="330" stroke="#334155" stroke-width="3"/>
+  <line x1="275" y1="295" x2="275" y2="355" stroke="#dc2626" stroke-width="3"/>
+  <line x1="395" y1="295" x2="395" y2="355" stroke="#dc2626" stroke-width="3"/>
+
+  <text x="200" y="352" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#475569">Bin 1: FR-4 Non-Metals</text>
+  <text x="335" y="352" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#b45309">Bin 2: Middlings</text>
+  <text x="475" y="352" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#0369a1">Bin 3: Copper Concentrate</text>
+
+  <!-- Governing Force Balance Box -->
+  <rect x="550" y="210" width="345" height="145" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="565" y="234" font-size="12.5" font-weight="bold" fill="#0f172a">Governing Force Balance on Roll Surface:</text>
+  <text x="565" y="258" font-size="11.5" fill="#475569">&#8226; FR-4 Insulator: Pinned by Image Force</text>
+  <text x="578" y="276" font-size="11" fill="#475569">F_img = q&#178; / (16&#960;&#949;_0 r_p&#178;)</text>
+  <text x="565" y="300" font-size="11.5" fill="#0369a1">&#8226; Copper Conductor (d_p &#8804; 0.65 mm): Leaps via</text>
+  <text x="578" y="318" font-size="11" fill="#0369a1">F_elec + m&#183;&#969;_roll&#178;&#183;R_roll &gt; m&#183;g&#183;cos(&#966;_det)</text>
+  <text x="565" y="340" font-size="11.5" fill="#b45309">&#8226; Unliberated Middling (d_p &gt; 0.65 mm): Drops to Bin 2</text>
+</svg>
