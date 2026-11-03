@@ -1,0 +1,4 @@
+policy_mode,mean_psd_mm,cu_grade_pct,cu_recovery_pct,spec_energy_kwh_kg,jams,arcs,final_blade_hi
+Static_Open_Loop,0.455,94.4,77.84,0.25,0,0,0.4
+RSM_PID,0.433,94.93,92.55,0.25,0,0,0.38
+Shielded_MO_PPO,0.409,95.35,97.44,0.257,0,0,0.36
