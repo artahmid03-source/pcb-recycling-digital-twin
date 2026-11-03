@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Waste-PCB Digital Twin Portfolio | Arifur Rahman Tahmid</title>
+  <style>
+    body { font-family: Segoe UI, Arial, sans-serif; line-height: 1.6; max-width: 920px; margin: 0 auto; padding: 2rem; color: #1e293b; background: #f8fafc; }
+    header { background: #0f172a; color: #f8fafc; padding: 2rem; border-radius: 8px; margin-bottom: 2rem; }
+    h1 { margin: 0 0 0.5rem 0; font-size: 1.75rem; }
+    h2 { color: #0f172a; border-bottom: 2px solid #cbd5e1; padding-bottom: 0.4rem; margin-top: 2rem; }
+    .btn { display: inline-block; background: #2563eb; color: #ffffff; padding: 0.6rem 1.2rem; border-radius: 6px; text-decoration: none; font-weight: 600; margin-top: 1rem; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; }
+    .card { background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1.2rem; }
+    table { width: 100%; border-collapse: collapse; background: #ffffff; margin-top: 1rem; }
+    th, td { border: 1px solid #cbd5e1; padding: 0.65rem; text-align: left; }
+    th { background: #f1f5f9; }
+    .flag { color: #b45309; font-weight: 600; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Multi-Physics Digital Twin &amp; Deep Reinforcement Learning Control of a Compact Waste-PCB Recycling Line</h1>
+    <p>Author: Arifur Rahman Tahmid | Department of Mechanical and Production Engineering (MPE), IUT</p>
+    <a class="btn" href="https://github.com/artahmid03-source/pcb-recycling-digital-twin">View Source Repository on GitHub</a>
+  </header>
+
+  <h2>1. System Overview &amp; Five-Stage Process Architecture</h2>
+  <p>Compact mechanical-electrostatic recycling recovers high-purity copper from Waste Printed Circuit Boards (28% Cu, 72% FR-4 fiberglass) inside an 880 &times; 450 &times; 580 mm frame without acid smelting or cyanide leaching. Uncompensated cutter wear shifts particle size above the 0.65 mm copper liberation threshold, causing feeder jams and over 18% copper recovery loss.</p>
+  <div class="grid">
+    <div class="card"><strong>Stage 1 &amp; 2: Shredder &amp; Hammer Mill</strong><br>Bond work index (16.4 kWh/t), Gamma blade wear, and Rosin-Rammler PSD modeling.</div>
+    <div class="card"><strong>Stage 3: Cyclone Air Classifier</strong><br>Lapple centrifugal cut-size (45 mm inlet width, 5 vortex turns) strips FR-4 dust.</div>
+    <div class="card"><strong>Stage 4: Corona Electrostatic Roll</strong><br>Pauthenier charging across a 50 mm gap on a 90 mm grounded roll separates Cu from FR-4.</div>
+    <div class="card"><strong>Stage 5: OpenPLC &amp; Shielded MO-PPO</strong><br>3.0 s auto-reverse above 12.5 A and HV gate (&gt; 30 RPM, door closed) with 6D state RL control.</div>
+  </div>
+
+  <h2>2. 500-kg Campaign Benchmark Summary (100 Batches of 5 kg)</h2>
+  <p class="flag">Note: Entries marked [MEASURED SIM / REPLACE REPORT PLACEHOLDER] correspond to Table 4 placeholders in the implementation blueprint verified via src/run_pcb_digital_twin.py.</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Control Policy</th>
+        <th>Mean PSD (mm)</th>
+        <th>Cu Grade (%)</th>
+        <th>Cu Recovery (%)</th>
+        <th>Energy (kWh/kg)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1. Static Open-Loop</td>
+        <td>0.518 (Report target: 0.58)</td>
+        <td>94.61% (Report target: 89.4%)</td>
+        <td>81.94% (Report target: 82.1%)</td>
+        <td>0.342</td>
+      </tr>
+      <tr>
+        <td>2. RSM Box-Behnken + PID</td>
+        <td>0.459 (Report target: 0.49)</td>
+        <td>95.34% (Report target: 93.1%)</td>
+        <td>88.35% (Report target: 87.4%)</td>
+        <td>0.369</td>
+      </tr>
+      <tr>
+        <td>3. Shielded MO-PPO (Proposed)</td>
+        <td>0.395 (Report target: 0.39)</td>
+        <td>96.65% (Report target: 96.8%)</td>
+        <td>94.71% (Report target: 94.8%)</td>
+        <td>0.388</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
