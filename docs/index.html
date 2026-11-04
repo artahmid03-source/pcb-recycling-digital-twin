@@ -3,18 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Waste-PCB Digital Twin Portfolio | Arifur Rahman Tahmid</title>
+  <title>Q1 Digital Twin Portfolio: Waste-PCB Recycling Line | Arifur Rahman Tahmid</title>
   <style>
-    body { font-family: Segoe UI, Arial, sans-serif; line-height: 1.6; max-width: 980px; margin: 0 auto; padding: 2rem; color: #1e293b; background: #f8fafc; }
-    header { background: #0f172a; color: #f8fafc; padding: 2rem; border-radius: 8px; margin-bottom: 2rem; }
-    h1 { margin: 0 0 0.5rem 0; font-size: 1.75rem; }
-    h2 { color: #0f172a; border-bottom: 2px solid #cbd5e1; padding-bottom: 0.4rem; margin-top: 2.2rem; }
-    .btn { display: inline-block; background: #2563eb; color: #ffffff; padding: 0.6rem 1.2rem; border-radius: 6px; text-decoration: none; font-weight: 600; margin-top: 1rem; margin-right: 0.75rem; }
+    body { font-family: Segoe UI, Arial, sans-serif; line-height: 1.65; max-width: 1020px; margin: 0 auto; padding: 2rem; color: #1e293b; background: #f8fafc; }
+    header { background: #0f172a; color: #f8fafc; padding: 2.2rem; border-radius: 10px; margin-bottom: 2rem; }
+    h1 { margin: 0 0 0.6rem 0; font-size: 1.8rem; }
+    h2 { color: #0f172a; border-bottom: 2px solid #cbd5e1; padding-bottom: 0.4rem; margin-top: 2.4rem; }
+    .btn { display: inline-block; background: #2563eb; color: #ffffff; padding: 0.65rem 1.25rem; border-radius: 6px; text-decoration: none; font-weight: 600; margin-top: 1rem; margin-right: 0.6rem; }
     .btn-sec { background: #334155; }
-    .fig-card { background: #ffffff; border: 1px solid #cbd5e1; border-radius: 8px; padding: 1.25rem; margin: 1.5rem 0; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
-    .fig-card img { width: 100%; height: auto; display: block; }
-    .caption { font-size: 0.92rem; color: #475569; margin-top: 0.75rem; font-style: italic; }
-    table { width: 100%; border-collapse: collapse; background: #ffffff; margin-top: 1rem; }
+    .btn-cad { background: #0d9488; }
+    .fig-card { background: #ffffff; border: 1px solid #cbd5e1; border-radius: 8px; padding: 1.25rem; margin: 1.5rem 0; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+    .fig-card img { width: 100%; height: auto; display: block; border-radius: 4px; }
+    .caption { font-size: 0.93rem; color: #475569; margin-top: 0.8rem; font-style: italic; }
+    table { width: 100%; border-collapse: collapse; background: #ffffff; margin-top: 1rem; font-size: 0.95rem; }
     th, td { border: 1px solid #cbd5e1; padding: 0.7rem; text-align: left; }
     th { background: #f1f5f9; }
     .highlight { background: #f0fdf4; font-weight: 600; }
@@ -22,31 +23,44 @@
 </head>
 <body>
   <header>
-    <h1>Multi-Physics Digital Twin &amp; Deep Reinforcement Learning Control of a Compact Waste-PCB Recycling Line</h1>
-    <p>Author: Arifur Rahman Tahmid | Department of Mechanical and Production Engineering (MPE), Islamic University of Technology (IUT)</p>
-    <a class="btn" href="https://github.com/artahmid03-source/pcb-recycling-digital-twin">View Code Repository on GitHub</a>
-    <a class="btn btn-sec" href="https://github.com/artahmid03-source/pcb-recycling-digital-twin/blob/main/docs/writeup.md">Read Full Technical Manuscript</a>
+    <h1>Multi-Physics Digital Twin &amp; Safety-Shielded Deep Reinforcement Learning Control of a Compact Waste-PCB Recycling Line</h1>
+    <p><strong>Author:</strong> Arifur Rahman Tahmid | Department of Mechanical and Production Engineering (MPE), Islamic University of Technology (IUT)</p>
+    <a class="btn" href="https://github.com/artahmid03-source/pcb-recycling-digital-twin">GitHub Code Repository</a>
+    <a class="btn btn-sec" href="https://github.com/artahmid03-source/pcb-recycling-digital-twin/blob/main/docs/writeup.md">Full Q1 Journal Manuscript</a>
+    <a class="btn btn-cad" href="https://github.com/artahmid03-source/pcb-recycling-digital-twin/blob/main/cad/pcb_recycling_line.stl">3D STL CAD Assembly</a>
+    <a class="btn btn-cad" href="https://github.com/artahmid03-source/pcb-recycling-digital-twin/blob/main/plc/pcb_safety_interlocks.st">IEC 61131-3 OpenPLC Code</a>
   </header>
 
-  <h2>1. End-to-End Cyber-Physical Architecture (880 &times; 450 &times; 580 mm Envelope)</h2>
-  <p>This plant-wide digital twin couples Bond-Rosin-Rammler comminution mechanics and Gamma blade wear to Lapple cyclone classification and Pauthenier corona-electrostatic separation, supervised by an OpenPLC safety shield and a Multi-Objective PPO reinforcement learning controller.</p>
+  <h2>1. 3D CAD Engineering Blueprint &amp; Rotor Inertia Parameterization</h2>
   <div class="fig-card">
-    <img src="fig1_architecture.svg" alt="Figure 1: 5-Stage Waste PCB Digital Twin System Architecture">
-    <div class="caption">Figure 1: End-to-end physical material flow and cyber-physical control architecture linking the 5-stage plant, OpenPLC safety interlocks (12.5 A auto-reverse and 30 RPM HV gate), Shielded MO-PPO agent, and InfluxDB 3 / Grafana telemetry.</div>
+    <img src="fig0_cad_blueprint.svg" alt="Figure 0: Orthographic CAD Engineering Blueprint">
+    <div class="caption">Figure 0: Orthographic CAD engineering blueprint (880 &times; 450 &times; 580 mm envelope) and extracted AISI 4140 / 6061-T6 rotor mass-inertia properties (J_shred = 0.0652 kg&middot;m&sup2;, J_hm = 0.0772 kg&middot;m&sup2;, J_roll = 0.0225 kg&middot;m&sup2;).</div>
   </div>
 
-  <h2>2. Stage 4 Corona-Electrostatic Particle Ballistics</h2>
+  <h2>2. End-to-End Cyber-Physical System Architecture</h2>
   <div class="fig-card">
-    <img src="fig2_corona_separator.svg" alt="Figure 2: Stage 4 Corona Electrostatic Separator Mechanics">
-    <div class="caption">Figure 2: Tri-zone separation mechanics on the 90 mm grounded roll across a 50 mm corona gap (18–28 kV), illustrating why uncompensated cutter wear above the 0.65 mm liberation threshold causes middling losses.</div>
+    <img src="fig1_architecture.svg" alt="Figure 1: 5-Stage Cyber-Physical Architecture">
+    <div class="caption">Figure 1: Closed-loop material flow and cyber-physical control pipeline linking the 5-stage physical simulator, OpenPLC Modbus TCP (:502) safety interlocks, Shielded MO-PPO agent, and InfluxDB 3 / Grafana observability.</div>
   </div>
 
-  <h2>3. Measured 500-kg Campaign Trajectory &amp; Benchmark Summary</h2>
+  <h2>3. Stage 4 Roll-Type Corona-Electrostatic Particle Ballistics</h2>
   <div class="fig-card">
-    <img src="fig3_recovery_trajectory.svg" alt="Figure 3: Measured Copper Recovery Trajectory Across 500-kg Campaign">
-    <div class="caption">Figure 3: Measured copper recovery retention across 100 batches (500 kg total WPCB feed) as hammer-mill cutter health degrades from HI = 1.00 to 0.35.</div>
+    <img src="fig2_corona_separator.svg" alt="Figure 2: Stage 4 Corona Separator Mechanics">
+    <div class="caption">Figure 2: Tri-zone separation mechanics on the 90 mm grounded roll across a 50 mm corona gap (18–28 kV), showing why uncompensated upstream cutter wear (d_p &gt; 0.65 mm) causes unliberated composite middling losses.</div>
   </div>
 
+  <h2>4. Multi-Seed Campaign Trajectory &amp; Coupled Multi-Physics Diagnostics</h2>
+  <div class="fig-card">
+    <img src="fig3_recovery_trajectory.svg" alt="Figure 3: 500-kg Campaign Copper Recovery Trajectory">
+    <div class="caption">Figure 3: Copper recovery retention across a 500-kg WPCB processing campaign (100 batches of 5.0 kg) as hammer-mill cutter health degrades from HI_blade = 1.00 to 0.35.</div>
+  </div>
+
+  <div class="fig-card">
+    <img src="fig4_multiphysics_diagnostics.svg" alt="Figure 4: 4-Panel Multi-Physics &amp; Control Adaptation Diagnostics">
+    <div class="caption">Figure 4: (a) Rosin-Rammler cumulative PSD shift vs. 0.65 mm liberation boundary, (b) Lapple cyclone underflow retention curve, (c) Shielded MO-PPO dynamic hammer speed and voltage adaptation, and (d) 5-seed statistical Pareto trade-off.</div>
+  </div>
+
+  <h2>5. Multi-Seed Statistical Benchmark &amp; Safety Shield Ablation (N = 5 Seeds, 500 kg Each)</h2>
   <table>
     <thead>
       <tr>
@@ -55,33 +69,46 @@
         <th>Cu Grade (%)</th>
         <th>Cu Recovery (%)</th>
         <th>Specific Energy (kWh/kg)</th>
-        <th>Feeder Jams / Arcs</th>
+        <th>Feeder Jams</th>
+        <th>Corona Arcs</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>1. Static Open-Loop Setpoints</td>
-        <td>0.518 mm</td>
-        <td>94.61%</td>
-        <td>81.94%</td>
-        <td>0.342 kWh/kg</td>
-        <td>12 Jams / 0 Arcs</td>
+        <td>0.517 &plusmn; 0.004</td>
+        <td>94.62 &plusmn; 0.04%</td>
+        <td>82.00 &plusmn; 0.34%</td>
+        <td>0.342 &plusmn; 0.001</td>
+        <td>11.6</td>
+        <td>0.0</td>
       </tr>
       <tr>
         <td>2. RSM Box-Behnken + PID</td>
-        <td>0.459 mm</td>
-        <td>95.34%</td>
-        <td>88.35%</td>
-        <td>0.369 kWh/kg</td>
-        <td>0 Jams / 0 Arcs</td>
+        <td>0.459 &plusmn; 0.003</td>
+        <td>95.34 &plusmn; 0.03%</td>
+        <td>88.39 &plusmn; 0.29%</td>
+        <td>0.369 &plusmn; 0.001</td>
+        <td>0.0</td>
+        <td>0.0</td>
+      </tr>
+      <tr>
+        <td>3. Unshielded MO-PPO (Ablation)</td>
+        <td>0.388 &plusmn; 0.003</td>
+        <td>96.79 &plusmn; 0.02%</td>
+        <td>95.12 &plusmn; 0.14%</td>
+        <td>0.391 &plusmn; 0.002</td>
+        <td>0.0</td>
+        <td>96.0</td>
       </tr>
       <tr class="highlight">
-        <td>3. Shielded MO-PPO (Proposed)</td>
-        <td>0.395 mm</td>
-        <td>96.65%</td>
-        <td>94.71%</td>
-        <td>0.388 kWh/kg</td>
-        <td>0 Jams / 0 Arcs</td>
+        <td>4. Shielded MO-PPO (Proposed)</td>
+        <td>0.395 &plusmn; 0.003</td>
+        <td>96.65 &plusmn; 0.02%</td>
+        <td>94.72 &plusmn; 0.15%</td>
+        <td>0.388 &plusmn; 0.001</td>
+        <td>0.0</td>
+        <td>0.0</td>
       </tr>
     </tbody>
   </table>

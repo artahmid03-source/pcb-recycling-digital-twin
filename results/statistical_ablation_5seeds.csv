@@ -1,0 +1,5 @@
+policy,psd_mean_sd,grade_mean_sd,recovery_mean_sd,energy_mean_sd,mean_jams,mean_arcs
+1. Static Open-Loop,0.456 +/- 0.005,94.39 +/- 0.04,77.76 +/- 0.37,0.250 +/- 0.000,0.0,0.0
+2. RSM Box-Behnken + PID,0.434 +/- 0.004,94.93 +/- 0.04,92.46 +/- 0.40,0.250 +/- 0.000,0.0,0.0
+3. Unshielded MO-PPO (Ablation),0.407 +/- 0.003,95.39 +/- 0.02,97.61 +/- 0.13,0.259 +/- 0.001,0.0,0.0
+4. Shielded MO-PPO (Proposed),0.410 +/- 0.003,95.35 +/- 0.02,97.35 +/- 0.14,0.258 +/- 0.001,0.0,0.0

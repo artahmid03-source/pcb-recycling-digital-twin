@@ -1,0 +1,6 @@
+subassembly,material,mass_kg,axial_inertia_j_kg_m2,key_dimension_mm,com_xyz_mm
+Stage 1: Double-Shaft Shredder Assembly (2x12 Blades),AISI 4140 Tool Steel,36.448,0.0665,"D_cut=124.0, Tip_Clearance=0.40","(145.0, 225.0, 465.0)"
+Stage 2: High-Speed Hammer Mill Rotor (16 Swing Hammers),AISI 4140 / Cr-Mo Alloy,22.381,0.07728,"D_swing=240.0, Screen_Aperture=0.80","(330.0, 225.0, 340.0)"
+Stage 3: Tangential Air Cyclone Classifier,AISI 304 Stainless Sheet,6.42,0.0,"B_c=45.0, H_c=90.0, D_body=180.0","(515.0, 225.0, 360.0)"
+Stage 4: Grounded Electrostatic Roll & Corona Electrode,6061-T6 Al / Tungsten Wire,3.035,0.02249,"R_roll=90.0, L_gap=50.0, H_bin=220.0","(710.0, 225.0, 285.0)"
+Stage 5: Mild-Steel Welded Structural Frame & Bins,ASTM A36 Mild Steel,38.5,0.0,Envelope=880.0 x 450.0 x 580.0,"(440.0, 225.0, 290.0)"

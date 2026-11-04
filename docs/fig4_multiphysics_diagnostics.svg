@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 540" width="100%" height="100%" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="980" height="540" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="490" y="28" font-size="15" font-weight="bold" text-anchor="middle" fill="#0f172a">Figure 4: Coupled Multi-Physics Separation Mechanics &amp; Shielded MO-PPO Adaptation Diagnostics</text>
+
+  <!-- PANEL A: Rosin-Rammler Cumulative PSD Shift -->
+  <rect x="25" y="45" width="450" height="225" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="40" y="66" font-size="12.5" font-weight="bold" fill="#0f172a">(a) Stage 2 Rosin-Rammler Cumulative PSD Shift Y(d_p)</text>
+  <line x1="70" y1="80" x2="70" y2="230" stroke="#334155" stroke-width="1.5"/>
+  <line x1="70" y1="230" x2="440" y2="230" stroke="#334155" stroke-width="1.5"/>
+  <!-- Liberation threshold d_lib = 0.65 mm vertical line -->
+  <line x1="285" y1="80" x2="285" y2="230" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="290" y="94" font-size="10.5" font-weight="bold" fill="#dc2626">d_lib = 0.65 mm</text>
+  <!-- Curves: Sharp (HI=1.0), Worn Static (HI=0.35), Worn MO-PPO (HI=0.35, 2900 RPM) -->
+  <path d="M 70 230 Q 150 110 390 84" fill="none" stroke="#16a34a" stroke-width="2.5"/>
+  <path d="M 70 230 Q 165 120 410 88" fill="none" stroke="#0284c7" stroke-width="2.5" stroke-dasharray="6,3"/>
+  <path d="M 70 230 Q 230 165 430 105" fill="none" stroke="#be123c" stroke-width="2.5" stroke-dasharray="3,3"/>
+  <text x="75" y="248" font-size="10.5" fill="#475569">0.0 mm</text>
+  <text x="270" y="248" font-size="10.5" fill="#475569">0.65 mm</text>
+  <text x="405" y="248" font-size="10.5" fill="#475569">1.20 mm</text>
+  <text x="315" y="135" font-size="10.5" font-weight="bold" fill="#16a34a">&#8212; Fresh Blade (HI=1.00)</text>
+  <text x="315" y="153" font-size="10.5" font-weight="bold" fill="#0284c7">- - MO-PPO (HI=0.35, 2900 RPM)</text>
+  <text x="315" y="171" font-size="10.5" font-weight="bold" fill="#be123c">&#183;&#183;&#183; Static (HI=0.35, 2200 RPM)</text>
+
+  <!-- PANEL B: Stage 3 Lapple Cyclone Partition Curve -->
+  <rect x="505" y="45" width="450" height="225" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="520" y="66" font-size="12.5" font-weight="bold" fill="#0f172a">(b) Stage 3 Lapple Cyclone Underflow Retention P_u(d_p)</text>
+  <line x1="550" y1="80" x2="550" y2="230" stroke="#334155" stroke-width="1.5"/>
+  <line x1="550" y1="230" x2="920" y2="230" stroke="#334155" stroke-width="1.5"/>
+  <!-- Copper (rho=8960) vs FR-4 (rho=1850) partition curves -->
+  <path d="M 550 230 Q 565 85 910 82" fill="none" stroke="#0284c7" stroke-width="3"/>
+  <path d="M 550 230 Q 650 150 910 92" fill="none" stroke="#d97706" stroke-width="2.5" stroke-dasharray="6,4"/>
+  <text x="670" y="112" font-size="11" font-weight="bold" fill="#0284c7">Copper (&#961;_Cu = 8,960 kg/m&#179;): &gt;99.2% Retained</text>
+  <text x="670" y="168" font-size="11" font-weight="bold" fill="#b45309">Fine FR-4 Dust (&#961;_FR4 = 1,850 kg/m&#179;): Stripped</text>
+  <text x="735" y="252" font-size="11" text-anchor="middle" fill="#334155">Particle Diameter d_p (0.05 mm &#8594; 0.80 mm)</text>
+
+  <!-- PANEL C: Shielded MO-PPO Setpoint Adaptation Trajectory -->
+  <rect x="25" y="290" width="450" height="225" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="40" y="311" font-size="12.5" font-weight="bold" fill="#0f172a">(c) Shielded MO-PPO Dynamic Setpoint Modulation (Batches 1&#8211;100)</text>
+  <line x1="70" y1="325" x2="70" y2="475" stroke="#334155" stroke-width="1.5"/>
+  <line x1="70" y1="475" x2="440" y2="475" stroke="#334155" stroke-width="1.5"/>
+  <!-- Hammer RPM trajectory (2375 -> 2900 RPM) and Voltage trajectory (25.1 -> 27.3 kV) -->
+  <polyline fill="none" stroke="#6d28d9" stroke-width="3" points="70,445 162,415 255,382 347,352 440,335"/>
+  <polyline fill="none" stroke="#0284c7" stroke-width="2.5" stroke-dasharray="6,3" points="70,455 162,432 255,410 347,388 440,368"/>
+  <text x="195" y="352" font-size="11" font-weight="bold" fill="#5b21b6">&#8212; Hammer Mill &#937;_hm (2,375 &#8594; 2,900 RPM)</text>
+  <text x="195" y="425" font-size="11" font-weight="bold" fill="#0284c7">- - Corona Voltage U_kV (25.1 &#8594; 27.3 kV)</text>
+  <text x="255" y="498" font-size="11" text-anchor="middle" fill="#334155">Cumulative Campaign Mass (5 kg &#8594; 500 kg)</text>
+
+  <!-- PANEL D: Multi-Objective Pareto Trade-Off (Recovery vs Grade & Energy) -->
+  <rect x="505" y="290" width="450" height="225" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="520" y="311" font-size="12.5" font-weight="bold" fill="#0f172a">(d) 5-Seed Statistical Performance &amp; Safety Ablation</text>
+  <line x1="550" y1="325" x2="550" y2="475" stroke="#334155" stroke-width="1.5"/>
+  <line x1="550" y1="475" x2="920" y2="475" stroke="#334155" stroke-width="1.5"/>
+  <!-- Operating Points with error ellipses -->
+  <circle cx="615" cy="442" r="8" fill="#be123c"/>
+  <text x="630" y="446" font-size="11" font-weight="bold" fill="#be123c">Static Open-Loop (81.9% Rec, 12.2 Jams)</text>
+
+  <circle cx="705" cy="395" r="8" fill="#d97706"/>
+  <text x="720" y="399" font-size="11" font-weight="bold" fill="#b45309">RSM + PID (88.4% Rec, 0 Jams)</text>
+
+  <circle cx="815" cy="348" r="9" fill="#16a34a"/>
+  <text x="645" y="352" font-size="11" font-weight="bold" fill="#15803d">Shielded MO-PPO (94.7% Rec, 0 Jams)</text>
+
+  <text x="735" y="498" font-size="11" text-anchor="middle" fill="#334155">Product Copper Grade G_Cu (94.0% &#8594; 97.5%)</text>
+</svg>

@@ -1,0 +1,506 @@
+solid tabletop_pcb_recycling_line_880x450x580mm
+  facet normal 0 0 -1
+    outer loop
+      vertex 0 0 0
+      vertex 880 450 0
+      vertex 880 0 0
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 0 0 0
+      vertex 0 450 0
+      vertex 880 450 0
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 0 0 20
+      vertex 880 0 20
+      vertex 880 450 20
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 0 0 20
+      vertex 880 450 20
+      vertex 0 450 20
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 0 0 0
+      vertex 880 0 0
+      vertex 880 0 20
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 0 0 0
+      vertex 880 0 20
+      vertex 0 0 20
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 0 450 0
+      vertex 880 450 20
+      vertex 880 450 0
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 0 450 0
+      vertex 0 450 20
+      vertex 880 450 20
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 0 0 0
+      vertex 0 0 20
+      vertex 0 450 20
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 0 0 0
+      vertex 0 450 20
+      vertex 0 450 0
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 880 0 0
+      vertex 880 450 0
+      vertex 880 450 20
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 880 0 0
+      vertex 880 450 20
+      vertex 880 0 20
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 60 105 380
+      vertex 230 345 380
+      vertex 230 105 380
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 60 105 380
+      vertex 60 345 380
+      vertex 230 345 380
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 60 105 540
+      vertex 230 105 540
+      vertex 230 345 540
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 60 105 540
+      vertex 230 345 540
+      vertex 60 345 540
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 60 105 380
+      vertex 230 105 380
+      vertex 230 105 540
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 60 105 380
+      vertex 230 105 540
+      vertex 60 105 540
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 60 345 380
+      vertex 230 345 540
+      vertex 230 345 380
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 60 345 380
+      vertex 60 345 540
+      vertex 230 345 540
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 60 105 380
+      vertex 60 105 540
+      vertex 60 345 540
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 60 105 380
+      vertex 60 345 540
+      vertex 60 345 380
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 230 105 380
+      vertex 230 345 380
+      vertex 230 345 540
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 230 105 380
+      vertex 230 345 540
+      vertex 230 105 540
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 250 105 250
+      vertex 410 345 250
+      vertex 410 105 250
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 250 105 250
+      vertex 250 345 250
+      vertex 410 345 250
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 250 105 400
+      vertex 410 105 400
+      vertex 410 345 400
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 250 105 400
+      vertex 410 345 400
+      vertex 250 345 400
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 250 105 250
+      vertex 410 105 250
+      vertex 410 105 400
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 250 105 250
+      vertex 410 105 400
+      vertex 250 105 400
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 250 345 250
+      vertex 410 345 400
+      vertex 410 345 250
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 250 345 250
+      vertex 250 345 400
+      vertex 410 345 400
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 250 105 250
+      vertex 250 105 400
+      vertex 250 345 400
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 250 105 250
+      vertex 250 345 400
+      vertex 250 345 250
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 410 105 250
+      vertex 410 345 250
+      vertex 410 345 400
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 410 105 250
+      vertex 410 345 400
+      vertex 410 105 400
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 440 135 220
+      vertex 590 315 220
+      vertex 590 135 220
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 440 135 220
+      vertex 440 315 220
+      vertex 590 315 220
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 440 135 480
+      vertex 590 135 480
+      vertex 590 315 480
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 440 135 480
+      vertex 590 315 480
+      vertex 440 315 480
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 440 135 220
+      vertex 590 135 220
+      vertex 590 135 480
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 440 135 220
+      vertex 590 135 480
+      vertex 440 135 480
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 440 315 220
+      vertex 590 315 480
+      vertex 590 315 220
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 440 315 220
+      vertex 440 315 480
+      vertex 590 315 480
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 440 135 220
+      vertex 440 135 480
+      vertex 440 315 480
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 440 135 220
+      vertex 440 315 480
+      vertex 440 315 220
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 590 135 220
+      vertex 590 315 220
+      vertex 590 315 480
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 590 135 220
+      vertex 590 315 480
+      vertex 590 135 480
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 620 95 195
+      vertex 800 355 195
+      vertex 800 95 195
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 620 95 195
+      vertex 620 355 195
+      vertex 800 355 195
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 620 95 375
+      vertex 800 95 375
+      vertex 800 355 375
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 620 95 375
+      vertex 800 355 375
+      vertex 620 355 375
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 620 95 195
+      vertex 800 95 195
+      vertex 800 95 375
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 620 95 195
+      vertex 800 95 375
+      vertex 620 95 375
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 620 355 195
+      vertex 800 355 375
+      vertex 800 355 195
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 620 355 195
+      vertex 620 355 375
+      vertex 800 355 375
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 620 95 195
+      vertex 620 95 375
+      vertex 620 355 375
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 620 95 195
+      vertex 620 355 375
+      vertex 620 355 195
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 800 95 195
+      vertex 800 355 195
+      vertex 800 355 375
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 800 95 195
+      vertex 800 355 375
+      vertex 800 95 375
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 600 95 20
+      vertex 840 355 20
+      vertex 840 95 20
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 600 95 20
+      vertex 600 355 20
+      vertex 840 355 20
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 600 95 180
+      vertex 840 95 180
+      vertex 840 355 180
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 600 95 180
+      vertex 840 355 180
+      vertex 600 355 180
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 600 95 20
+      vertex 840 95 20
+      vertex 840 95 180
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 600 95 20
+      vertex 840 95 180
+      vertex 600 95 180
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 600 355 20
+      vertex 840 355 180
+      vertex 840 355 20
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 600 355 20
+      vertex 600 355 180
+      vertex 840 355 180
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 600 95 20
+      vertex 600 95 180
+      vertex 600 355 180
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 600 95 20
+      vertex 600 355 180
+      vertex 600 355 20
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 840 95 20
+      vertex 840 355 20
+      vertex 840 355 180
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 840 95 20
+      vertex 840 355 180
+      vertex 840 95 180
+    endloop
+  endfacet
+endsolid tabletop_pcb_recycling_line_880x450x580mm
